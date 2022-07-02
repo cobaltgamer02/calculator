@@ -185,11 +185,21 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/decimal"
+            android:layout_width="0dp"
+            android:background="@color/two"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:onClick="whetherDecimalNeeded"
+            android:text=".">
+
+        <Button
             android:id="@+id/zero"
             android:layout_width="0dp"
             android:background="@color/two"
             android:layout_height="match_parent"
-            android:layout_weight="2.1"
+            android:layout_weight="1"
             android:layout_margin="5dp"
             android:onClick="onDigit"
             android:text="0">
