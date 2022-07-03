@@ -68,7 +68,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="/">
 
         </Button>
@@ -113,14 +113,15 @@
             android:text="6">
 
         </Button>
+
         <Button
             android:id="@+id/multiply"
             android:layout_width="0dp"
-            android:background="@color/two"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:layout_margin="5dp"
-            android:onClick="onDigit"
+            android:layout_weight="1"
+            android:background="@color/two"
+            android:onClick="onOperator"
             android:text="*">
 
         </Button>
@@ -172,7 +173,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="+">
 
         </Button>
@@ -192,7 +193,7 @@
             android:layout_weight="1"
             android:layout_margin="5dp"
             android:onClick="whetherDecimalNeeded"
-            android:text=".">
+            android:text="."/>
 
         <Button
             android:id="@+id/zero"
@@ -223,7 +224,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="-">
 
         </Button>
@@ -242,7 +243,7 @@
             android:layout_height="match_parent"
             android:layout_weight="2.1"
             android:layout_margin="5dp"
-            android:onClick="onDigit"
+            android:onClick="equal"
             android:text="=">
 
         </Button>
